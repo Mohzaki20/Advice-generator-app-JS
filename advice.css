@@ -84,8 +84,9 @@ body {
         display: none;
     }
     .advice .container .line-mobile {
-        display: block;
-        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
     }
     .advice .container .quote{
         font-size: 12px;
@@ -141,5 +142,16 @@ body {
         height: 6px;
         padding: 20px;
         bottom: -25px;
+    }
+}
+@media (max-width: 666px) {
+    .advice .container .line-mobile{
+        width: 250px;
+    }
+    .advice .container .quote{
+        font-size: 18px;
+    }
+    .advice .container {
+        width: 250px;
     }
 }
